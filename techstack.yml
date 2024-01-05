@@ -1,11 +1,12 @@
 repo_name: rayhanuddin2019/gui-challenges
 report_id: fda2c2be12e3dfc8d404ae8e53c4c3b4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T14:41:13+00:00'
+timestamp: '2024-01-05T08:53:28+00:00'
 requested_by: argyleink
 provider: github
 branch: main
-detected_tools_count: 23
+detected_tools_count: 24
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges
   detection_source: Repo Metadata
 - name: Babel
   description: Use next generation JavaScript, today.
@@ -36,8 +39,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: Git
@@ -48,6 +51,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -57,6 +61,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/.github/workflows/main.yml
   detection_source: ".github/workflows/main.yml"
   last_updated_by: Adam Argyle
   last_updated_on: 2020-04-22 04:42:23.000000000 Z
@@ -68,6 +73,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/tabs/package.json
   detection_source: tabs/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2021-01-08 20:12:46.000000000 Z
@@ -79,7 +85,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: cssnano
@@ -88,7 +95,8 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: "@babel/core"
@@ -101,8 +109,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: "@babel/preset-env"
@@ -115,8 +123,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: "@rollup/plugin-node-resolve"
@@ -129,8 +137,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: browser-sync
@@ -143,8 +151,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: concurrently
@@ -157,8 +165,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: copyfiles
@@ -171,10 +179,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16453/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: tabs/package-lock.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/tabs/package-lock.json
   detection_source: tabs/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2022-01-28 16:39:16.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 4.1.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
+  last_updated_by: Adam Argyle
+  last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: postcss
   description: Tool for transforming styles with JS plugins
   package_url: https://www.npmjs.com/postcss
@@ -185,8 +207,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: breadcrumbs/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/breadcrumbs/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2022-01-28 16:39:16.000000000 Z
   vulnerabilities:
@@ -218,8 +240,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2022-01-28 16:39:16.000000000 Z
 - name: postcss-import
@@ -232,8 +254,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16086/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2022-01-28 16:39:16.000000000 Z
 - name: postcss-loader
@@ -246,8 +268,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2022-01-28 16:39:16.000000000 Z
 - name: postcss-preset-env
@@ -260,8 +282,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16373/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
-  detection_source_url: breadcrumbs/package-lock.json
-  detection_source: toast/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/breadcrumbs/package-lock.json
+  detection_source: breadcrumbs/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2021-06-25 17:04:07.000000000 Z
 - name: rimraf
@@ -274,7 +296,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: centering/package-lock.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
   detection_source: tabs/package.json
   last_updated_by: tbdx
   last_updated_on: 2021-02-17 22:40:50.000000000 Z
@@ -288,8 +310,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15877/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
 - name: rollup-plugin-postcss
@@ -302,8 +324,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16135/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2022-01-28 16:39:16.000000000 Z
 - name: rollup-plugin-terser
@@ -316,7 +338,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: centering/package-lock.json
-  detection_source: tabs/package.json
+  detection_source_url: https://github.com/rayhanuddin2019/gui-challenges/blob/main/centering/package-lock.json
+  detection_source: centering/package.json
   last_updated_by: Adam Argyle
   last_updated_on: 2020-05-11 22:59:26.000000000 Z
