@@ -1,32 +1,36 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 rayhanuddin2019/gui-challenges is built on the following main stack:
+
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Babel](http://babeljs.io/) – JavaScript Compilers
 - [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 rayhanuddin2019/gui-challenges is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/2739/-1wfGjNw.png' alt='Babel'/> [Babel](http://babeljs.io/) – JavaScript Compilers
 - <img width='25' height='25' src='https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg' alt='rollup'/> [rollup](http://rollupjs.org/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [rayhanuddin2019/gui-challenges](https://github.com/rayhanuddin2019/gui-challenges)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|23<br/>Tools used|11/10/23 <br/>Report generated|
+|24<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -110,9 +114,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (15)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (16)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (15)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (16)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -122,6 +126,7 @@ Full tech stack [here](/techstack.md)
 |[browser-sync](https://www.npmjs.com/browser-sync)|v2.26.7|05/11/20|Adam Argyle |Apache-2.0|N/A|
 |[concurrently](https://www.npmjs.com/concurrently)|v5.1.0|05/11/20|Adam Argyle |MIT|N/A|
 |[copyfiles](https://www.npmjs.com/copyfiles)|v2.4.1|01/28/22|Adam Argyle |MIT|N/A|
+|[cssnano](https://www.npmjs.com/cssnano)|v4.1.10|05/11/20|Adam Argyle |MIT|N/A|
 |[postcss](https://www.npmjs.com/postcss)|v7.0.35|01/28/22|Adam Argyle |MIT|[CVE-2023-44270](https://github.com/advisories/GHSA-7fh5-64p2-3v2j) (Moderate)<br/>[CVE-2021-23382](https://github.com/advisories/GHSA-566m-qj78-rww5) (Moderate)<br/>[CVE-2021-23368](https://github.com/advisories/GHSA-hwj9-h5mp-3pm3) (Moderate)|
 |[postcss-cli](https://www.npmjs.com/postcss-cli)|v7.1.0|01/28/22|Adam Argyle |MIT|N/A|
 |[postcss-import](https://www.npmjs.com/postcss-import)|v12.0.1|01/28/22|Adam Argyle |MIT|N/A|
@@ -135,4 +140,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
